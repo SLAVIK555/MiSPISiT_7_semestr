@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddNewDetail</class>
+ <widget class="QDialog" name="AddNewDetail">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>644</width>
+    <height>477</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>561</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="11" column="1">
+     <widget class="QComboBox" name="SPCcomboBox"/>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="ANPVlineEdit"/>
+    </item>
+    <item row="10" column="1">
+     <widget class="QLineEdit" name="ANNlineEdit"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QCheckBox" name="ANPVcheckBox">
+      <property name="text">
+       <string>Add new Provider:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QComboBox" name="SPVcomboBox"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QCheckBox" name="ANAcheckBox">
+      <property name="text">
+       <string>Add new Articul:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="SAcomboBox"/>
+    </item>
+    <item row="12" column="1">
+     <widget class="QLineEdit" name="ANPClineEdit"/>
+    </item>
+    <item row="12" column="0">
+     <widget class="QCheckBox" name="ANPCcheckBox">
+      <property name="text">
+       <string>Add new Price:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="1">
+     <widget class="QComboBox" name="SMcomboBox"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="ANDlabel">
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Add New Detail</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QCheckBox" name="ANNcheckBox">
+      <property name="text">
+       <string>Add new Name:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="1">
+     <widget class="QComboBox" name="SCcomboBox"/>
+    </item>
+    <item row="14" column="1">
+     <widget class="QLineEdit" name="ANClineEdit"/>
+    </item>
+    <item row="14" column="0">
+     <widget class="QCheckBox" name="ANCcheckBox">
+      <property name="text">
+       <string>Add new Count:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QComboBox" name="SNcomboBox"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="ANAlineEdit"/>
+    </item>
+    <item row="16" column="1">
+     <widget class="QLineEdit" name="ANMlineEdit"/>
+    </item>
+    <item row="16" column="0">
+     <widget class="QCheckBox" name="ANMcheckBox">
+      <property name="text">
+       <string>Add new Manufacturer:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Select Articul:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Select Provider:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Select Name:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Select Price:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Select Count:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Select Manufacturer:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>430</y>
+     <width>561</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add New Detail</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

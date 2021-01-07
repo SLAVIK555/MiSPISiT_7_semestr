@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditSelectesDetail</class>
+ <widget class="QDialog" name="EditSelectesDetail">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>601</width>
+    <height>461</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>20</y>
+     <width>561</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="11" column="1">
+     <widget class="QComboBox" name="ESPCcomboBox"/>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="EANPVlineEdit"/>
+    </item>
+    <item row="10" column="1">
+     <widget class="QLineEdit" name="EANNlineEdit"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QCheckBox" name="EANPVcheckBox">
+      <property name="text">
+       <string>Edit an existing Provider:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QComboBox" name="ESPVcomboBox"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QCheckBox" name="EANAcheckBox">
+      <property name="text">
+       <string>Edit an existing Articul:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="ESAcomboBox"/>
+    </item>
+    <item row="12" column="1">
+     <widget class="QLineEdit" name="EANPClineEdit"/>
+    </item>
+    <item row="12" column="0">
+     <widget class="QCheckBox" name="EANPCcheckBox">
+      <property name="text">
+       <string>Edit an existing Price:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="1">
+     <widget class="QComboBox" name="ESMcomboBox"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="EANDlabel">
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Edit Selected Detail</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QCheckBox" name="EANNcheckBox">
+      <property name="text">
+       <string>Edit an existing Name:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="1">
+     <widget class="QComboBox" name="ESCcomboBox"/>
+    </item>
+    <item row="14" column="1">
+     <widget class="QLineEdit" name="EANClineEdit"/>
+    </item>
+    <item row="14" column="0">
+     <widget class="QCheckBox" name="EANCcheckBox">
+      <property name="text">
+       <string>Edit an existing Count:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QComboBox" name="ESNcomboBox"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="EANAlineEdit"/>
+    </item>
+    <item row="16" column="1">
+     <widget class="QLineEdit" name="EANMlineEdit"/>
+    </item>
+    <item row="16" column="0">
+     <widget class="QCheckBox" name="EANMcheckBox">
+      <property name="text">
+       <string>Edit an existing Manufacturer:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Select an existing Articul:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Select an existing Provider:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Select an existing Name:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Select an existing Price:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Select an existing Count:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Select an existing Manufacturer:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>420</y>
+     <width>561</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Edit  Detail</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
